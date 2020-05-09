@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<head>
+    <title>My Flask API</title>
+</head>
+<body>
+    <form action="{{ url_for('update_item') }}" method="POST">
+        <input type="text" id="name" name="fname" placeholder="First Name">
+        <input type="text" id="name" name="lname" placeholder="Last Name">
+        <input type="text" id="name" name="mname" placeholder="Middle Name">
+        <input type="text" id="id" name="id" placeholder="ID">
+        <input type="submit" id="submit" value="Press Me">
+    </form>
+</body>
